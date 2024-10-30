@@ -1,0 +1,130 @@
+th.column-cpi {
+	width:53px;
+}
+
+th.column-cpi a span:first-child {
+	background:url("../images/crmpro_logo.png") no-repeat center center;
+	width:16px;
+	height:16px;
+	display:inline-block;
+	text-indent:-99999px;
+}
+
+td.column-cpi {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.cpi-status {
+	display:inline-block;
+	background-repeat:no-repeat;
+	background-position: center center;
+	width:16px;
+	height:16px;
+	cursor:pointer;
+}
+
+.cpi-status-no {
+	background-image : url( "../images/no.png" );
+}
+
+.cpi-status-yes {
+	background-image : url( "../images/yes.png" );
+}
+
+.cpi-status-importing {
+	background-image : url( "../images/ajax-loader.gif" );
+}
+
+#cpi-import-results-wrap {
+	display:none;
+}
+
+#cpi-import-loading {
+	display:none;
+}
+
+.cpi-importing {
+	padding-left:20px;
+	background : url( "../images/ajax-loader.gif" ) left center no-repeat;
+}
+
+.cpi-importing-cancelled {
+	background:none;
+	padding-left:0px;
+	text-decoration: line-through;
+}
+
+.cpi-import-success {
+	color:green;
+}
+
+.cpi-import-error {
+	color:red;
+}
+
+#cpi-import-bar {
+	position:relative;
+	display:none;
+	height:25px;
+}
+
+#cpi-import-bar-percent {
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:300px;
+	margin-left:-150px;
+	height:25px;
+	margin-top:-9px;
+	font-weight:bold;
+	text-align:center;
+}
+
+#cpi-import-cancel-button {
+	display:none;
+}
+
+#cpi-dismiss-wrap {
+	overflow:auto;
+}
+
+#cpi-dismiss {
+	padding-left: 3px;
+	position: relative;
+	float: right;
+	display: inline-block;
+	text-decoration: none;
+	font-size:13px;
+}
+
+#cpi-dismiss:before {
+	background: 0 0;
+	color: #bbb;
+	content: '\f153';
+	display: block!important;
+	font: 400 13px/1 dashicons;
+	speak: none;
+	margin: 1px 0;
+	text-align: center;
+	-webkit-font-smoothing: antialiased!important;
+	width: 10px;
+	height: 100%;
+	position: absolute;
+	left: -12px;
+	top: 1px;
+}
+
+.cpi-import-all {
+	display:none;
+}
+
+.cpi-import-show-all #cpi-user-roles label span span {
+	display:none;
+}
+
+.cpi-import-show-all .cpi-import-all{
+	display:inline!important;
+}

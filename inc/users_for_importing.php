@@ -1,0 +1,1 @@
+<div class='updated' ><p><strong>CRMPRO Importer</strong>: There are <?php echo $this->get_remaining_users_count(); ?> user(s) that aren't imported. Click <a href='<?php echo admin_url( 'tools.php?page=cpi-import' ); ?>' >here</a> to import them.</p></div>
